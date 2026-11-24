@@ -19,24 +19,24 @@ body {
 }
 
 header {
-  background: #111;
+  background: #171717;
   color: white;
-  padding: 20px;
   text-align: center;
+  padding: 25px 10px;
 }
 
 header h1 {
-  font-size: 25px;
+  font-size: 27px;
 }
 
 header p {
-  color: #ddd;
-  margin-top: 7px;
+  margin-top: 8px;
+  letter-spacing: 2px;
 }
 
 nav {
   background: #333;
-  padding: 14px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -44,27 +44,26 @@ nav a {
   color: white;
   text-decoration: none;
   margin: 10px;
-  font-size: 14px;
 }
 
 .hero {
   background: #eee;
+  padding: 75px 15px;
   text-align: center;
-  padding: 65px 15px;
 }
 
 .hero h2 {
-  font-size: 32px;
-  margin-bottom: 12px;
+  font-size: 34px;
+  margin-bottom: 15px;
 }
 
 .hero p {
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 }
 
 .btn {
   display: inline-block;
-  background: #111;
+  background: #171717;
   color: white;
   padding: 13px 25px;
   text-decoration: none;
@@ -72,19 +71,19 @@ nav a {
 }
 
 section {
-  padding: 40px 15px;
+  padding: 45px 15px;
 }
 
 section h2 {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .products {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-  max-width: 900px;
+  gap: 18px;
+  max-width: 950px;
   margin: auto;
 }
 
@@ -93,49 +92,47 @@ section h2 {
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 18px;
 }
 
 .product img {
   width: 100%;
-  height: 190px;
+  height: 210px;
   object-fit: cover;
 }
 
 .product h3 {
-  margin: 12px 5px;
-  font-size: 17px;
+  margin: 15px 5px;
 }
 
 .price {
   font-weight: bold;
-  margin: 10px;
+  margin-bottom: 12px;
 }
 
 .order {
   display: inline-block;
   background: #168b45;
   color: white;
+  padding: 11px 18px;
   text-decoration: none;
-  padding: 10px 16px;
   border-radius: 5px;
-  margin-top: 5px;
 }
 
 .about {
   background: #f3f3f3;
   text-align: center;
-  line-height: 1.7;
+  line-height: 1.8;
 }
 
 footer {
-  background: #111;
+  background: #171717;
   color: white;
   text-align: center;
-  padding: 25px 10px;
+  padding: 25px;
 }
 
-@media (max-width: 400px) {
+@media(max-width: 450px) {
   .products {
     grid-template-columns: 1fr;
   }
@@ -147,7 +144,7 @@ footer {
 
 <header>
   <h1>UMMA KULSUM</h1>
-  <p>Cloth Store</p>
+  <p>CLOTH STORE</p>
 </header>
 
 <nav>
@@ -165,11 +162,10 @@ footer {
 
 <section id="men">
   <h2>Men Collection</h2>
-
   <div class="products">
 
     <div class="product">
-      <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600" alt="Men T Shirt">
+      <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600" alt="Men T-Shirt">
       <h3>Men T-Shirt</h3>
       <p class="price">₹499</p>
       <a class="order" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20Men%20T-Shirt">Order Now</a>
@@ -177,9 +173,9 @@ footer {
 
     <div class="product">
       <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600" alt="Men Fashion">
-      <h3>Fashion Wear</h3>
+      <h3>Men Fashion Wear</h3>
       <p class="price">₹799</p>
-      <a class="order" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20Fashion%20Wear">Order Now</a>
+      <a class="order" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20Men%20Fashion">Order Now</a>
     </div>
 
   </div>
@@ -187,7 +183,6 @@ footer {
 
 <section id="women">
   <h2>Women Collection</h2>
-
   <div class="products">
 
     <div class="product">
@@ -199,9 +194,9 @@ footer {
 
     <div class="product">
       <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600" alt="Women Fashion">
-      <h3>Fashion Wear</h3>
+      <h3>Women Fashion Wear</h3>
       <p class="price">₹899</p>
-      <a class="order" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20Fashion%20Wear">Order Now</a>
+      <a class="order" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20Women%20Fashion">Order Now</a>
     </div>
 
   </div>
